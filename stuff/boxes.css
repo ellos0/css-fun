@@ -1,0 +1,12 @@
+/*css 2: boxes*/
+:root {
+  --small: 1;
+  --medium: 2;
+  --big: 3;
+}
+.container {display:grid;}
+.border {border:1px solid;}
+.one {grid-template-columns:repeat(var(--small), 1fr);}
+.two {grid-template-columns:repeat(var(--medium), 1fr);}
+.three {grid-template-columns:repeat(var(--big), 1fr);}
+.center {text-align:center;}
