@@ -1,0 +1,43 @@
+.basic {
+  position: static;
+  margin:5px;
+  width:20%;
+  height:10%;
+  display:flex;
+}
+.slide {animation: slide 1s;}
+.fade {animation: fade 1s}
+@keyframes slide {
+  from {
+    transform:translateY(-20px);
+    opacity:0;
+  }
+  to {
+    transform:translateY(0px);
+    opacity:1;
+  }
+}
+@keyframes fade {
+  from {opacity:0;}
+  to {opacity:1;}
+}
+
+.dark {
+  background-color:#444444;
+  color:#ffffff;
+}
+.evil {
+  background-color:#444444;
+  color:#ff0000;
+}
+.text {
+  margin:5px;
+}
+.rounded {
+  border: 1px solid;
+  border-radius: 5px;
+}
+.basic img {
+  width:25%;
+  height:100%;
+}
